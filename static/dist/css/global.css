@@ -1,0 +1,38 @@
+
+/* 
+    Created on : 21 Jul 15, 21:43:27
+    Author     : Iqbal
+*/
+
+.img-thumbs {
+    max-width: 150px;
+    height: auto;
+}
+
+.img-thumbs-lg {
+    max-width : 300px;
+    height:auto;
+}
+
+.breadcrumb>li+li:before {
+    content: '>\00a0';
+}
+
+.btn-view {
+    width : 35px;
+    padding : 2px 2px !important;
+}
+
+@media (max-width: 991px) {
+    td,th, .btn{
+        font-size:10px;
+    }
+}
+
+@media (min-width: 991px) {
+    .btn-view {
+        width : 80px;
+        padding : 6px 6px !important;
+    }
+}
+
